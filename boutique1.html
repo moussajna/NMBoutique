@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Boutique</title>
+    <style>
+        /* Styles de base pour le site */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Styles pour le header */
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        /* Section principale */
+        .hero {
+            background-image: url('votre-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        /* Section Produits */
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background-color: #fff;
+            border-radius: 8px;
+            width: 300px;
+            margin: 15px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+        }
+
+        .product p {
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Votre Boutique</h1>
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#produits">Produits</a>
+            <a href="#apropos">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Section Hero -->
+    <section class="hero">
+        <h2>Découvrez nos nouveaux articles</h2>
+    </section>
+
+    <!-- Section Produits -->
+    <section id="produits" class="section">
+        <h2>Nos Produits</h2>
+        <div class="products">
+            <div class="product">
+                <img src="produit1.jpg" alt="Produit 1">
+                <h3>Produit 1</h3>
+                <p>Description du produit 1</p>
+            </div>
+            <div class="product">
+                <img src="produit2.jpg" alt="Produit 2">
+                <h3>Produit 2</h3>
+                <p>Description du produit 2</p>
+            </div>
+            <div class="product">
+                <img src="produit3.jpg" alt="Produit 3">
+                <h3>Produit 3</h3>
+                <p>Description du produit 3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="section">
+        <h2>À propos</h2>
+        <p>Bienvenue sur notre site ! Nous proposons une large gamme de vêtements de haute qualité. Notre objectif est de vous offrir les meilleurs produits au meilleur prix.</p>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <h2>Contactez-nous</h2>
+        <p>Email: contact@votreboutique.com</p>
+        <p>Téléphone: 0123456789</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Votre Boutique. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
